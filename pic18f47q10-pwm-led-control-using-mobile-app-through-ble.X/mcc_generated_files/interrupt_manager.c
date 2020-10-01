@@ -48,7 +48,6 @@
 
 #include "interrupt_manager.h"
 #include "mcc.h"
-#include "../application.h"
 
 void  INTERRUPT_Initialize (void)
 {
@@ -72,8 +71,6 @@ void __interrupt() INTERRUPT_InterruptManager (void)
         else if(PIE4bits.TMR1IE == 1 && PIR4bits.TMR1IF == 1)
         {
             TMR1_ISR();
-                        // Call Timer Handler
-            appTMR_Tick();      // Handle Every mS
         } 
         else
         {

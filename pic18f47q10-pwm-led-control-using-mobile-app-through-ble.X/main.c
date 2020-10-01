@@ -70,6 +70,8 @@ void main(void)
     //INTERRUPT_PeripheralInterruptDisable();
 
     InitialSetup();
+    TMR1_SetInterruptHandler(appTMR_Tick);
+            
     while (1)
     {
         // Add your application code
