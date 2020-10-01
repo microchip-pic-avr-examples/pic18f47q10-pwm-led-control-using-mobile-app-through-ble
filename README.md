@@ -114,15 +114,6 @@ Configured “WWDT timer enable” parameter as “WDT enabled/disabled by SWDTE
   <br><strong>WWDT Window<br>
 </p>
 
-### ADCC configuration for Low pass filter mode:
-
-The ADC operating mode is selected as Low Pass Filter mode. The ADCRS value is selected as 3 for low-pass filter cutoff frequency of 21.33Hz with ADC sampling frequency of 1KHz.
-
-<p align="center">
-  <img width=600 height=auto src="images/AdccLPF.png">
-  <br><strong>ADCC Window<br>
-</p>
-
 ### Timer 1 settings:
 
 The clock source for timer 1 is selected as FOSC/4 along with the prescaler of 1:1 and the timer period is set to 1ms. The timer interrupt is enabled. Timer 1 is used to generate timer ticks for every 1ms which is used for scheduling various timely activities.
