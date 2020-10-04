@@ -1,9 +1,9 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# LED Control and Dimming Using Mobile Application through BLE
+# LED Control using Mobile Application through BLE Communication Interface
 
-The PIC18FxxQ10 family of MCUs are equipped with various core independent peripherals (CIPs) such as PWM, Timer, WWDT etc. The devices can operate in various power saving modes such as idle, doze and sleep mode. The wake up from sleep mode is possible with various options such as external reset input on MCLR pin, BOR Reset, Low-Power Brown-Out Reset (LPBOR), POR Reset, Windowed Watchdog Timer timeout and all interrupt sources except clock switch interrupt.
+The PIC18-Q10 family of MCUs are equipped with various core independent peripherals (CIPs) such as PWM, Timer, WWDT etc. The devices can operate in various power saving modes such as idle, doze and sleep mode. The wake up from sleep mode is possible with various options such as external reset input on MCLR pin, BOR Reset, Low-Power Brown-Out Reset (LPBOR), POR Reset, Windowed Watchdog Timer timeout and all interrupt sources except clock switch interrupt.
 
 
 ### Demonstration Video 
@@ -12,7 +12,7 @@ The PIC18FxxQ10 family of MCUs are equipped with various core independent periph
 
 ## Description 
 
-In this demo, PIC18F47Q10 MCU is used to demonstrate peripheral features of the Q10 family of MCUs. This demo highlights usage of PWM peripheral for brightness control and dimming of on board LEDs. Also, showcase the MCU’s sleep mode implementation along with the provision to wake up the MCU by means of either Interrupt on Change (IOC) event or WWDT module.
+In this demo, PIC18F47Q10 MCU is used to demonstrate peripheral features of the PIC18-Q10 family of MCUs. This demo highlights usage of PWM peripheral for brightness control and dimming of on board LEDs. Also, showcase the MCU’s sleep mode implementation along with the provision to wake up the MCU by means of either Interrupt on Change (IOC) event or WWDT module.
 An android application for mobiles is developed with which users can control functionality of two on-board LEDs (D2 & D3) of the curiosity HPC board by sending commands to the MCU over Bluetooth communication.
 Using the android application,
 * Turn On/Off and control brightness of LED D2
@@ -340,6 +340,6 @@ In sleep mode, the WWDT module generates timeout event after one minute. Once ti
 
 ## Conclusion 
 
-This demo example demonstrates usage of the PIC18FxxQ10 MCUs PWM and timer modules together in an application to control brightness/dimming of LEDs. The LEDs are controlled through android application (for mobiles) and via the Bluetooth communication.
+This demo example demonstrates usage of the PIC18-Q10 MCUs PWM and timer modules together in an application to control brightness/dimming of LEDs. The LEDs are controlled through android application (for mobiles) and via the Bluetooth communication.
 
-Also, demonstrates sleep mode implementation in PIC18FxxQ10 family of MCUs, which is essential to conserve power in power critical or battery powered applications. The wakeup feature is demonstrated with the help of WWDT module and interrupt on change (IOC) event.
+Also, demonstrates sleep mode implementation in PIC18-Q10 family of MCUs, which is essential to conserve power in power critical or battery powered applications. The wakeup feature is demonstrated with the help of WWDT module and interrupt on change (IOC) event.
