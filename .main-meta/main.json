@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f47q10-pwm-led-control-using-mobile-app-through-ble",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "LED Control using Mobile Application through BLE Communication Interface",
         "projectName": "pic18f47q10-pwm-led-control-using-mobile-app-through-ble",
         "shortDescription": "This demo is developed using PIC18-Q10 family MCU and Curiosity High Pin Count board. The demo highlights implementation of LED dimming with PWM and timer modules and sleep wake-up with WWDT timeout/IOC event, through mobile app and BLE interface.",
@@ -57,12 +57,9 @@
         ],
         "keywords": [
             "PIC18F47Q10",
-            "MPLAB X",
-            "MCC",
 			"Timer/Counter",
-			"PWM",
-			"WWDT",
 			"Sleep",
+			"Bluetooth"
 			"BLE",
 			"BLE2 Click",
 			"Android Application",
