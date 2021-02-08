@@ -59,7 +59,7 @@
             "PIC18F47Q10",
 			"Timer/Counter",
 			"Sleep",
-			"Bluetooth"
+			"Bluetooth",
 			"BLE",
 			"BLE2 Click",
 			"Android Application",
