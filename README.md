@@ -8,7 +8,7 @@ The PIC18-Q10 family of MCUs are equipped with various core independent peripher
 
 ### Demonstration Video 
 
-[![Demo Video](https://img.youtube.com/vi/b5-pZ4SWfos/0.jpg)](https://youtu.be/b5-pZ4SWfos)
+<br><a href="https://youtu.be/b5-pZ4SWfos" rel="nofollow"><img src="images/youtube.png" alt= " PIC18-Q10 " width="500"/></a>
 
 ## Description 
 
