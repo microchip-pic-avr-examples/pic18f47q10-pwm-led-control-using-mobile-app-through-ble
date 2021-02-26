@@ -53,21 +53,21 @@
             ],
             [
                "Peripherals", "USART"
-            ]              			
+            ],
+            [
+               "Peripherals", "Sleep"
+            ]             			
         ],
         "peripherals": [
-            "TMR1","PWM","WWDT","USART"
+            "TMR1","PWM","WWDT","USART","Sleep"
         ],
         "keywords": [
-            "PIC18F47Q10",
-			"Timer/Counter",
-			"Sleep",
+			"16 Timer",
 			"Bluetooth",
 			"BLE",
-			"BLE2 Click",
-			"Android Application",
-			"Data Visualizer",
-			"Curiosity HPC Board"
+			"LED",
+			"Wireless Communication",
+			"Data Visualizer"
         ],
 		"additionalData": {
 			"longDescription": {
