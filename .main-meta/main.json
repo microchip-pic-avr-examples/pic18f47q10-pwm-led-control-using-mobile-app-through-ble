@@ -49,7 +49,7 @@
                "Peripherals", "PWM"
             ],
             [
-               "Peripherals", "WWDT"
+               "Peripherals", "WDT"
             ],
             [
                "Peripherals", "USART"
@@ -59,7 +59,7 @@
             ]             			
         ],
         "peripherals": [
-            "TMR1","PWM","WWDT","USART","Sleep"
+            "TMR1","PWM","WDT","USART","Sleep"
         ],
         "keywords": [
 			"16 Timer",
