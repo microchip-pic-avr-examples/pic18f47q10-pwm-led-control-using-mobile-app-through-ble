@@ -1,7 +1,7 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# LED Control using Mobile Application through BLE Communication Interface - MPLAB X Project
+# LED Control using Mobile Application through BLE Communication Interface
 
 The PIC18-Q10 family of MCUs are equipped with various core independent peripherals (CIPs) such as PWM, Timer, WWDT etc. The devices can operate in various power saving modes such as idle, doze and sleep mode. The wake up from sleep mode is possible with various options such as external reset input on MCLR pin, BOR Reset, Low-Power Brown-Out Reset (LPBOR), POR Reset, Windowed Watchdog Timer timeout and all interrupt sources except clock switch interrupt.
 
