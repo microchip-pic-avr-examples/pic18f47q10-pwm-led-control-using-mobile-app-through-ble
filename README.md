@@ -48,10 +48,10 @@ The MCU exits from sleep mode in two ways; one way is whenever user presses eith
 
 Make sure that the latest software libraries are installed. The demo/example uses the following version of software tools from Microchip.
 
-* [MPLAB® X](https://www.microchip.com/mplab/mplab-x-ide) (v5.40)
-* [XC8 compiler](https://www.microchip.com/mplab/compilers) (v2.30)
-* [MPLAB® Code Configurator](https://www.microchip.com/mplab/mplab-code-configurator) (v4.0.1)
-* [DFP Pack](https://packs.download.microchip.com/) (v1.8.154)
+* MPLAB® X IDE [v5.40.0 or newer](https://www.microchip.com/mplab/mplab-x-ide)
+* XC8 Compiler [v2.30.0 or newer](https://www.microchip.com/mplab/compilers)
+* Microchip PIC18F-Q Series Device Support Pack [v1.8.154 or newer](https://packs.download.microchip.com/#collapse-Microchip-PIC18F-Q-DFP-pdsc)
+* Microchip Code Configurator [v4.0.1 or newer](https://www.microchip.com/mplab/mplab-code-configurator)
  
 ### Android version
 
