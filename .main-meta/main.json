@@ -38,7 +38,7 @@
         },
         "author": "Microchip",
         "subcategories": [
-			"Communications",
+			"Communication",
 			"Home Appliance",
             [
                "Peripherals", "TMR1"
@@ -67,7 +67,7 @@
 			"User Interface",
 			"Curiosity",
 			"Low Power",
-			"Wireless Communication",
+			"Wireless",
 			"Data Visualizer"
         ],
 		"additionalData": {
